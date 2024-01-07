@@ -1,0 +1,104 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  background: linear-gradient(to right, #FFC857, #F4A261, #2A9D8F, #E9C46A, #F4A261, #FFC857); /* Aesthetic and colorful gradient */
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #694D75; /* Muted mauve for heading text */
+}
+
+h2 {
+  font-size: 30px;
+  color: #7D5A58; /* Dusty rose for subheadings */
+}
+
+.desc {
+  font-style: italic;
+  color: #5E8D87; /* Soft teal for the description text */
+}
+
+h1, h2, p {
+  text-align: center;
+  color: #333333; /* Dark gray color for general text */
+}
+
+.menu {
+  width: 80%;
+  background-color: #F2E0CB; /* Ivory for the menu background */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+}
+
+img {
+  display: block;
+  margin: 0 auto 15px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+hr {
+  height: 3px;
+  background-color: #7D5A58; /* Dusty rose for the HR line */
+  border-color: #7D5A58;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.flavor, .pastry {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 16px;
+  color: #333333;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #7D5A58; /* Dusty rose for links */
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7D5A58;
+}
+
+a:hover {
+  color: #5E8D87; /* Soft teal on hover */
+}
+
+a:active {
+  color: #5E8D87;
+}
